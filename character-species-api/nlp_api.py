@@ -9,7 +9,7 @@ app = Flask(__name__)
 # --- MongoDB Atlas connection ---
 MONGODB_URI = os.getenv(
     "MONGODB_URI",
-    "mongodb+srv://Kkn_DBuser:DataK%4099@cluster0.ahuh6sb.mongodb.net/starwar?retryWrites=true&w=majority&appName=Cluster0"
+    "your uri"
 )
 client = MongoClient(MONGODB_URI)
 db = client["starwar"]
