@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets - never commit
+.env
+
+# OS/editor junk
+.DS_Store
+.idea/
+.vscode/
