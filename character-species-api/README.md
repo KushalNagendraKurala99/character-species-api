@@ -1,4 +1,5 @@
-# Programming Assignment 1
+# character-species-api
+
 
 ## Setup
 
